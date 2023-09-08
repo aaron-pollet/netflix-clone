@@ -1,9 +1,17 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import SelectProfile from './selectProfile/SelectProfile';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Dit wordt de netflix clone!</h1>
+      <Routes>
+        <Route path='/' />
+        <Route
+          path='/browse'
+          element={<SelectProfile />}
+        />
+      </Routes>
     </div>
   );
 }
