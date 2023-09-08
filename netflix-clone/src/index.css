@@ -1,0 +1,15 @@
+html {
+  scroll-behaviour: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  color: #f9f9f9;
+  font-family: 'Fira Code', 'Bebas Neue', arial, helvetica;
+}
