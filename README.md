@@ -6,5 +6,3 @@ This is my first time trying to clone a web application on my own.
 
 and my initial recreation
 ![alt text](./netflix-clone/public/screenshots/frontend_profile-selection.png)
-
-Main differences is font-style and some different margins and padding values.
